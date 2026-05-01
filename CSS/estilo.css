@@ -1,0 +1,59 @@
+body{
+    background: #9cda70ee;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor{
+    width: 40%;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 30%;
+    background: #efe6e6c1;
+    border : solid 2px #419841;
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+h1{
+    color: #000000;
+    background: #0cf90025;
+    border: solid 2px #419841;
+    border-radius: 10px;
+    display: inline-block;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #2e8b57;
+    padding: 10px;
+    margin: 20px auto;
+    
+    
+}
+
+input {
+    width: 50%;
+    height: 30px;
+    color: #000000;
+    border: 1px solid #419841;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: -10px;
+    background-color: white; 
+    box-shadow: none;        
+}
+
+.boton-factura {
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 40px;
+    background: #96d35f;
+    box-shadow: inset 20px 20px 60px #80b351, 
+                inset -20px -20px 60px #adf36d;
+    border: none;
+    width: 180px;  
+    height: 45px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto; 
+}
